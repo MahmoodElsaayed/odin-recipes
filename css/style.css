@@ -1,6 +1,7 @@
 * {
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
 
 a {
     text-decoration: none;
-    color: blue;
+    color: rgb(2, 2, 63);
     font-size: larger;
     font-weight: bolder;
 }
@@ -21,4 +22,13 @@ ul {
 
 li {
     padding: 0px 0px 10px 0px;
+}
+
+.content-box {
+    width: max-content;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    box-shadow: 10px 20px black;
 }
